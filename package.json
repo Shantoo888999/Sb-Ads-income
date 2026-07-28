@@ -2,10 +2,10 @@
   "name": "sb-ads-income",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "npm@9",
+  "packageManager": "npm@10",
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": "24.x",
+    "npm": "10.x"
   },
   "scripts": {
     "dev": "next dev",
