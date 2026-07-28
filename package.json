@@ -1,0 +1,29 @@
+{
+  "name": "sb-ads-income",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:migrate": "prisma migrate dev --name init",
+    "prisma:seed": "ts-node --esm prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "4.15.0",
+    "@next-auth/prisma-adapter": "1.1.4",
+    "next": "13.5.6",
+    "next-auth": "4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.4.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.24",
+    "prisma": "4.15.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
